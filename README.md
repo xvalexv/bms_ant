@@ -4,7 +4,9 @@ BMS monitoring for ANT BMS LiFePo4 batteries
 * Install:
 
 apt install python3 python3-pip
+
 apt install build-essential libbluetooth-dev
+
 pip install -r requirements.txt 
 
 * Note if you use Raspberry Pi with USB to rs485 adapter:
