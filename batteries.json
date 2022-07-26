@@ -1,0 +1,18 @@
+[
+        {
+        "addr": "AA:BB:CC:A0:00:01",
+        "table_name": "batt",
+        "connect_type": "bluetooth",
+        "port": 1,
+        "cell_count": 8
+    },
+    {
+        "addr": "AA:BB:CC:A0:00:02",
+        "table_name": "batt",
+        "connect_type": "rs485",
+        "port": "/dev/ttyUSB0",
+        "baudrate" : 19200,
+        "cell_count": 8
+    }
+
+]
