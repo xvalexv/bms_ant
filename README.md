@@ -23,15 +23,17 @@ Linux PI4 5.15.32-v8+
 1). Install linux headers 
 apt-get install raspberrypi-kernel-headers
 
-2). 
-Download latest Ch340 driver
+2). Download latest Ch340 driver
 
 option 1:
+
 git clone https://github.com/juliagoda/CH341SER
 cd CH341SER
 
 option 2:
+
 * https://www.wch.cn/download/CH341SER_LINUX_ZIP.html
+
 wget https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER_LINUX.ZIP
 unzip CH341SER_LINUX.ZIP
 cd CH341SER_LINUX
