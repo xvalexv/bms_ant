@@ -35,12 +35,15 @@ option 2:
 * https://www.wch.cn/download/CH341SER_LINUX_ZIP.html
 
 wget https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER_LINUX.ZIP
+
 unzip CH341SER_LINUX.ZIP
+
 cd CH341SER_LINUX
 
 3). Compile driver
 
 make
+
 make load
 
 ** Note if your battery isn't loaded, it can be in sleep mode. To get it work you must run script when battery is under load or can press Reset key on battery.
