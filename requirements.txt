@@ -1,0 +1,4 @@
+paho-mqtt
+pyserial
+pybluez
+influxdb
