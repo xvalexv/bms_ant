@@ -13,8 +13,11 @@ pip install -r requirements.txt
 
 Requirements - x64 os system , core > 4.4
 tested on:
+
 PI3 B+
+
 PI4
+
 Linux PI4 5.15.32-v8+
 
 1). Install linux headers 
@@ -22,6 +25,7 @@ apt-get install raspberrypi-kernel-headers
 
 2). 
 Download latest Ch340 driver
+
 option 1:
 git clone https://github.com/juliagoda/CH341SER
 cd CH341SER
