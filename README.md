@@ -28,6 +28,7 @@ apt-get install raspberrypi-kernel-headers
 option 1:
 
 git clone https://github.com/juliagoda/CH341SER
+
 cd CH341SER
 
 option 2:
