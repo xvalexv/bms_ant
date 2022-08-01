@@ -112,7 +112,7 @@ class DATA_LOGGER:
               influx_row = {}
               influx_row['measurement'] = table_name
               influx_row['tags'] = {}
-              influx_row['time'] = strftime("%d-%m-%Y %H:%M:%S", gmtime())
+              influx_row['time'] = strftime("%m-%d-%Y %H:%M:%S", gmtime())
               influx_row['fields'] = battery_data
               influx_points = []
               influx_points.append(influx_row)
